@@ -1,0 +1,36 @@
+.country-search {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .country-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .countryCard {
+    width: calc(14.28% - 10px); /* Each country card takes up approximately 14.28% of the container width with 10px margin between them */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .countryCard img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .countryCard p {
+    margin-top: 10px;
+  }
